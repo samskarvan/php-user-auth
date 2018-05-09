@@ -11,6 +11,23 @@
 <body>
     <header class="container">
     <h1 class="center">This is an H1 taaaaaagg</h1>
+    <div class="row">
+    <form action="./auth.php" method="post" class"col s12">
+        <div class="row">
+            <div class="input-field col s6">
+                <input type="text" name="username" id="username">
+                <label for="username">Username</label>
+            </div>
+            <div class="input-field col s6">
+                <input type="text" name="password" id="password">
+                <label for="password">Password</label>
+            </div>
+    </div>
+    <div class="row center">
+        <button class="btn">Sign In</button>
+    </div>
+    </form>
+    </div>
     </header>
 </body>
 </html>
